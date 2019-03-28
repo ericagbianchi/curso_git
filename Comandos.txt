@@ -2,7 +2,7 @@ https://github.com/ericagbianchi/curso_git/
 
 > git init
 > git status
-> git add file.txt: adiciona o arquivo ao repositório, mas não foi comitado ainda
+> git add file.txt: adiciona o arquivo no índice, mas não foi comitado ainda
 > git rm file.txt: exclui o arquivo definitivamente
 > git rm --cached file.txt: exclui o arquivo apenas do índice e mantém no seu repositório local
 > git commit: registra mudanças no repositório
@@ -28,6 +28,9 @@ https://github.com/ericagbianchi/curso_git/
 > git reset --merge: cancela um merge com conflito
 > git push: envia mudanças para um repositório remoto
 > fork: seguir um caminho separado do projeto de origem
+> touch <filename>: cria um novo arquivo vazio
+> start <filename>: abre um arquivo com o aplicativo padrão
+> git log: mostra todos os commits na branch atual
 
 Git Flow: 
 https://nvie.com/posts/a-successful-git-branching-model/
