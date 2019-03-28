@@ -1,0 +1,34 @@
+https://github.com/ericagbianchi/curso_git/
+
+> git init
+> git status
+> git add file.txt: adiciona o arquivo ao repositório, mas não foi comitado ainda
+> git rm file.txt: exclui o arquivo definitivamente
+> git rm --cached file.txt: exclui o arquivo apenas do índice e mantém no seu repositório local
+> git commit: registra mudanças no repositório
+> .gitignore: arquivo contendo lista de pastas e arquivos a serem ignorados
+> git tag tag_name: cria uma tag
+> git new_tag old_tag: renomeia a tag antiga para um novo nome
+> git -d old_tag: deleta a tag antiga
+> git archive -o lastest.zip HEAD
+> git checkout <tag>: commits da tag referenciada
+> git revert: gera um novo commit para reverter o commit anterior (o comportamento é alterado, mas o commit se mantem)
+> git branch branch_name: cria uma nova branch
+> git checkout branch: entra na branch
+> git branch: lista as branches
+> gitk &
+> git log HEAD ..branch_name: ver as diferenças entre as branches
+> git branch -d branch_name: remover branch
+> git commit -a -m "mensagem": atalho para adicionar e commitar (só funciona para arquivos que ja existiam)
+> git branch -D branch_name: remove a branch mesmo sem ter ocorrido merge (exclui de tudo, repositório e local)
+> git cherry-pic: seleciona e aplica mudanças (copia as mudanças de um commit e gera outro)
+> git remote: gerenciar repositórios remotos
+> git clone: clona repositório remoto
+> git pull: incorporta mudanças de um repositório remoto
+> git reset --merge: cancela um merge com conflito
+> git push: envia mudanças para um repositório remoto
+> fork: seguir um caminho separado do projeto de origem
+
+Git Flow: 
+https://nvie.com/posts/a-successful-git-branching-model/
+https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
