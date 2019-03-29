@@ -12,6 +12,7 @@ https://github.com/ericagbianchi/curso_git/
 > git -d old_tag: deleta a tag antiga
 > git archive -o lastest.zip HEAD
 > git checkout <tag>: commits da tag referenciada
+> git merge JIRA-123: mergeia a branch que você esta com a branch mencionada
 > git revert: gera um novo commit para reverter o commit anterior (o comportamento é alterado, mas o commit se mantem)
 > git branch branch_name: cria uma nova branch
 > git checkout branch: entra na branch
@@ -26,7 +27,7 @@ https://github.com/ericagbianchi/curso_git/
 > git clone: clona repositório remoto
 > git pull: incorporta mudanças de um repositório remoto
 > git reset --merge: cancela um merge com conflito
-> git push: envia mudanças para um repositório remoto
+> git push: envia mudanças para um repositório remoto (--all envia todas as branches)
 > fork: seguir um caminho separado do projeto de origem
 > touch <filename>: cria um novo arquivo vazio
 > start <filename>: abre um arquivo com o aplicativo padrão
