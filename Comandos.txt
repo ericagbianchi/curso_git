@@ -32,6 +32,8 @@ https://github.com/ericagbianchi/curso_git/
 > touch <filename>: cria um novo arquivo vazio
 > start <filename>: abre um arquivo com o aplicativo padrão
 > git log: mostra todos os commits na branch atual
+> git fetch: atualiza as referencias locais com as remotas, mas nao faz o merge com a branch local
+> git pull: equivalente a fazer git fetch && git merge FETCH_HEAD
 
 Git Flow: 
 https://nvie.com/posts/a-successful-git-branching-model/
