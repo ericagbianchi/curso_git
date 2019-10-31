@@ -34,6 +34,7 @@ https://github.com/ericagbianchi/curso_git/
 > git log: mostra todos os commits na branch atual
 > git fetch: atualiza as referencias locais com as remotas, mas nao faz o merge com a branch local
 > git pull: equivalente a fazer git fetch && git merge FETCH_HEAD
+> git stash -> git pull -> git stash pop: guarda suas modificações -> baixa as atualizações que estão no repositório remoto -> baixa novamente suas modificações guardadas para seu repositório local
 
 Git Flow: 
 https://nvie.com/posts/a-successful-git-branching-model/
