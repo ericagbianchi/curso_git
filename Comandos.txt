@@ -25,7 +25,6 @@ https://github.com/ericagbianchi/curso_git/
 > git cherry-pic: seleciona e aplica mudanças (copia as mudanças de um commit e gera outro)
 > git remote: gerenciar repositórios remotos
 > git clone: clona repositório remoto
-> git pull: incorporta mudanças de um repositório remoto
 > git reset --merge: cancela um merge com conflito
 > git push: envia mudanças para um repositório remoto (--all envia todas as branches)
 > fork: seguir um caminho separado do projeto de origem
@@ -33,7 +32,7 @@ https://github.com/ericagbianchi/curso_git/
 > start <filename>: abre um arquivo com o aplicativo padrão
 > git log: mostra todos os commits na branch atual
 > git fetch: atualiza as referencias locais com as remotas, mas nao faz o merge com a branch local
-> git pull: equivalente a fazer git fetch && git merge FETCH_HEAD
+> git pull: incorporta mudanças de um repositório remoto; equivalente a fazer git fetch && git merge FETCH_HEAD
 > git stash -> git pull -> git stash pop: guarda suas modificações -> baixa as atualizações que estão no repositório remoto -> baixa novamente suas modificações guardadas para seu repositório local
 
 Git Flow: 
