@@ -38,3 +38,6 @@ https://github.com/ericagbianchi/curso_git/
 Git Flow: 
 https://nvie.com/posts/a-successful-git-branching-model/
 https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
+
+Obs:
+> git stash: o arquivo deve estar trackeado pelo git (A). U é untracked e dará erro ao tentar realizar o comando.
