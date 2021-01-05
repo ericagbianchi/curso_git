@@ -16,6 +16,7 @@ https://github.com/ericagbianchi/curso_git/
 > git revert: gera um novo commit para reverter o commit anterior (o comportamento é alterado, mas o commit se mantem)
 > git branch branch_name: cria uma nova branch
 > git checkout branch: entra na branch
+> git checkout -b branch_name: cria uma branch a partir da branch atual e já entra na branch criada
 > git branch: lista as branches
 > gitk &
 > git log HEAD ..branch_name: ver as diferenças entre as branches
