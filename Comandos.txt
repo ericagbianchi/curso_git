@@ -28,6 +28,7 @@ https://github.com/ericagbianchi/curso_git/
 > git remote: gerenciar repositórios remotos
 > git clone: clona repositório remoto
 > git reset --merge: cancela um merge com conflito
+> git reset HEAD~1: remove do stage e volta ao commit anterior (não pode ter tido push)
 > git push: envia mudanças para um repositório remoto (--all envia todas as branches)
 > fork: seguir um caminho separado do projeto de origem
 > touch <filename>: cria um novo arquivo vazio
